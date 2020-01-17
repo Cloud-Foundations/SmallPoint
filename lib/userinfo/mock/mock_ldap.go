@@ -3,10 +3,11 @@ package mock
 import (
 	"errors"
 	"fmt"
-	"github.com/Symantec/ldap-group-management/lib/userinfo"
 	"log"
 	"sort"
 	"strconv"
+
+	"github.com/Cloud-Foundations/SmallPoint/lib/userinfo"
 )
 
 const descriptionAttribute = "self-managed"

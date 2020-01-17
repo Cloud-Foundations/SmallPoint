@@ -5,7 +5,7 @@ Summary:	LDAP group management tool
 
 #Group:		
 License:	ASL 2.0
-URL:		https://github.com/Symantec/ldap-group-management
+URL:		https://github.com/Cloud-Foundations/SmallPoint
 Source0:	smallpoint-%{version}.tar.gz
 
 #BuildRequires:	Golang

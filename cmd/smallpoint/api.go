@@ -3,11 +3,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Symantec/ldap-group-management/lib/userinfo"
 	"log"
 	"net/http"
 	"sort"
 	"strings"
+
+	"github.com/Cloud-Foundations/SmallPoint/lib/userinfo"
 )
 
 //All handlers and API endpoints starts from here.

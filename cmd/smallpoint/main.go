@@ -8,12 +8,6 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/Symantec/keymaster/lib/instrumentedwriter"
-	"github.com/Symantec/ldap-group-management/lib/userinfo"
-	"github.com/Symantec/ldap-group-management/lib/userinfo/ldapuserinfo"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"gopkg.in/natefinch/lumberjack.v2"
-	"gopkg.in/yaml.v2"
 	"html/template"
 	"io/ioutil"
 	"log"
@@ -24,7 +18,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Symantec/ldap-group-management/lib/authn"
+	"github.com/Cloud-Foundations/SmallPoint/lib/authn"
+	"github.com/Cloud-Foundations/SmallPoint/lib/userinfo"
+	"github.com/Cloud-Foundations/SmallPoint/lib/userinfo/ldapuserinfo"
+	"github.com/Cloud-Foundations/keymaster/lib/instrumentedwriter"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"gopkg.in/natefinch/lumberjack.v2"
+	"gopkg.in/yaml.v2"
 )
 
 type baseConfig struct {

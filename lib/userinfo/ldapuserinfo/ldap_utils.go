@@ -5,10 +5,6 @@ import (
 	"crypto/x509"
 	"errors"
 	"fmt"
-	"github.com/Symantec/keymaster/lib/authutil"
-	"github.com/Symantec/ldap-group-management/lib/metrics"
-	"github.com/Symantec/ldap-group-management/lib/userinfo"
-	"gopkg.in/ldap.v2"
 	"log"
 	"net"
 	"net/url"
@@ -18,6 +14,11 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/Cloud-Foundations/SmallPoint/lib/metrics"
+	"github.com/Cloud-Foundations/SmallPoint/lib/userinfo"
+	"github.com/Cloud-Foundations/keymaster/lib/authutil"
+	"gopkg.in/ldap.v2"
 )
 
 const ldapTimeoutSecs = 10

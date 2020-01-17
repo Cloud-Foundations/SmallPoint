@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Symantec/ldap-group-management/lib/userinfo"
 	"log"
 	"net/http"
 	"net/url"
@@ -12,7 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Symantec/keymaster/lib/instrumentedwriter"
+	"github.com/Cloud-Foundations/SmallPoint/lib/userinfo"
+	"github.com/Cloud-Foundations/keymaster/lib/instrumentedwriter"
 )
 
 const postMethod = "POST"

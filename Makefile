@@ -11,7 +11,7 @@ VERSION=0.3.2
 all: test build
 
 build:
-	cd $(GOPATH)/src; go install -ldflags "-X main.Version=${VERSION}" github.com/Symantec/ldap-group-management/cmd/*
+	cd $(GOPATH)/src; go install -ldflags "-X main.Version=${VERSION}" github.com/Cloud-Foundations/SmallPoint/cmd/*
 
 test:
 	go test -v ./...

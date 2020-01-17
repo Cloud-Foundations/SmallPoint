@@ -3,12 +3,13 @@ package main
 import (
 	"database/sql"
 	"errors"
-	"github.com/Symantec/ldap-group-management/lib/metrics"
-	_ "github.com/lib/pq"
-	_ "github.com/mattn/go-sqlite3"
 	"log"
 	"strings"
 	"time"
+
+	"github.com/Cloud-Foundations/SmallPoint/lib/metrics"
+	_ "github.com/lib/pq"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 const profileDBFilename = "requests.sqlite3"

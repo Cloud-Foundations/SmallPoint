@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Symantec/ldap-group-management/lib/userinfo"
+	"github.com/Cloud-Foundations/SmallPoint/lib/userinfo"
 
 	"github.com/vjeantet/goldap/message"
 	ldap "github.com/vjeantet/ldapserver"

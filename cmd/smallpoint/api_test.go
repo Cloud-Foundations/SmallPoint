@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Symantec/ldap-group-management/lib/authn"
-	"github.com/Symantec/ldap-group-management/lib/userinfo/mock"
+	"github.com/Cloud-Foundations/SmallPoint/lib/authn"
+	"github.com/Cloud-Foundations/SmallPoint/lib/userinfo/mock"
 )
 
 const (
